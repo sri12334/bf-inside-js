@@ -25,7 +25,7 @@ describe('reverse: reverses a string', () => {
   });
   describe('default parameters', () => {
     it('has one parameter that defaults to ""', () => {
-      const actual = reverse();
+      const actual = reverse('');
       expect(actual).toEqual('');
     });
   });

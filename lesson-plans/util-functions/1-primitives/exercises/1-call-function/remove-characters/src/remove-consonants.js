@@ -10,7 +10,7 @@ const removeConsonants = () => {
 
   // --- remove all consonants from the input ---
   //  use `removeCharacters` to write this step of the program
-  ___;
+  const noConsonants = removeCharacters(userText);
 
   // --- display the input with no consonants ---
   display('removified', noConsonants);
